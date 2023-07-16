@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
 
-                Log.i("Person tapped:", myFamily.get(position));
+                Log.i("Person tapped:", myFamily.get(position)); //It shows who tapped
 
             }
         });
